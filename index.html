@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sigma Institute of Education | Admission Open 2026–27</title>
+    <!-- Tailwind CSS & FontAwesome -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy: { 900: '#07101e', 800: '#0b192c', 700: '#1e3e62' },
+                        gold: { 400: '#dfc067', 500: '#d4af37', 600: '#aa8c2c' }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        html { scroll-behavior: smooth; }
+        .bg-pattern { background-image: radial-gradient(rgba(212,175,55,0.08) 1px, transparent 1px); background-size: 24px 24px; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased">
+
+    <!-- Top Announcement Bar -->
+    <div class="bg-navy-900 text-gold-400 text-xs sm:text-sm py-2 px-4 border-b border-navy-700">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
+            <div class="flex items-center gap-2 font-medium">
+                <span class="inline-block w-2 h-2 rounded-full bg-gold-400 animate-ping"></span>
+                <span>🎓 Admission Open for Academic Session 2026–27</span>
+            </div>
+            <div class="flex items-center gap-4 text-slate-300">
+                <a href="tel:9651248042" class="hover:text-gold-400 transition"><i class="fas fa-phone mr-1"></i> +91 9651248042</a>
+                <span class="text-navy-700">|</span>
+                <a href="mailto:Sigmainstituteofeducation@gmail.com" class="hover:text-gold-400 transition"><i class="fas fa-envelope mr-1"></i> Helpline</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <header class="sticky top-0 z-40 bg-navy-800/95 backdrop-blur shadow-lg border-b border-navy-700">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-20">
+            <a href="#home" class="flex items-center gap-3">
+                <div class="w-12 h-12 rounded-lg bg-navy-900 border-2 border-gold-500 flex items-center justify-center text-gold-400 text-2xl font-bold shadow-inner">
+                    Σ
+                </div>
+                <div>
+                    <h1 class="text-xl font-bold text-white tracking-wide">SIGMA INSTITUTE</h1>
+                    <p class="text-xs text-gold-400 tracking-wider">OF EDUCATION</p>
+                </div>
+            </a>
+
+            <nav class="hidden md:flex items-center gap-7 font-medium text-sm text-slate-200">
+                <a href="#home" class="hover:text-gold-400 transition">Home</a>
+                <a href="#about" class="hover:text-gold-400 transition">About</a>
+                <a href="#courses" class="hover:text-gold-400 transition">Courses</a>
+                <a href="#scholarship" class="hover:text-gold-400 transition">Scholarship</a>
+                <a href="#gallery" class="hover:text-gold-400 transition">Gallery</a>
+                <a href="#contact" class="hover:text-gold-400 transition">Contact</a>
+                <a href="#admission" class="px-5 py-2.5 rounded-full bg-gradient-to-r from-gold-500 to-gold-600 text-navy-900 font-bold shadow hover:brightness-105 transition">Apply Now</a>
+            </nav>
+
+            <button id="mobileMenuBtn" class="md:hidden text-gold-400 text-2xl focus:outline-none">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+
+        <div id="mobileMenu" class="hidden md:hidden bg-navy-900 border-t border-navy-700 px-6 py-4 space-y-3 text-slate-200">
+            <a href="#home" class="block py-1 hover:text-gold-400">Home</a>
+            <a href="#about" class="block py-1 hover:text-gold-400">About</a>
+            <a href="#courses" class="block py-1 hover:text-gold-400">Courses</a>
+            <a href="#scholarship" class="block py-1 hover:text-gold-400">Scholarship</a>
+            <a href="#gallery" class="block py-1 hover:text-gold-400">Gallery</a>
+            <a href="#contact" class="block py-1 hover:text-gold-400">Contact</a>
+            <a href="#admission" class="block py-2 text-center rounded-lg bg-gold-500 text-navy-900 font-bold">Apply Now (2026–27)</a>
+        </div>
+    </header>
+
+    <!-- 1. HERO SECTION -->
+    <section id="home" class="relative bg-navy-900 text-white bg-pattern py-20 lg:py-28 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gold-500/10 border border-gold-500/30 text-gold-400 text-xs font-semibold uppercase tracking-wider mb-4">
+                    <i class="fas fa-award"></i> Academic Session 2026–2027
+                </span>
+                <h2 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight">
+                    Build Your Future With <span class="text-gold-400">Excellence</span>
+                </h2>
+                <p class="mt-5 text-slate-300 text-base sm:text-lg leading-relaxed">
+                    सिग्मा इंस्टीट्यूट ऑफ एजुकेशन में आपका स्वागत है। डिग्री, लॉ, पॉलिटेक्निक और तकनीकी पाठ्यक्रमों के लिए गुणवत्तापूर्ण मार्गदर्शन और आधुनिक शैक्षणिक वातावरण।
+                </p>
+                <div class="mt-8 flex flex-wrap gap-4">
+                    <a href="#admission" class="px-7 py-3.5 rounded-lg bg-gold-500 text-navy-900 font-bold shadow-lg hover:bg-gold-400 transition inline-flex items-center gap-2">
+                        <span>Apply Now</span> <i class="fas fa-arrow-right text-xs"></i>
+                    </a>
+                    <a href="tel:9651248042" class="px-7 py-3.5 rounded-lg bg-navy-700/60 border border-gold-400/40 text-gold-400 font-semibold hover:bg-navy-700 transition inline-flex items-center gap-2">
+                        <i class="fas fa-phone-alt text-sm"></i> <span>Call Now</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-2 gap-4">
+                <div class="bg-navy-800/80 border border-navy-700 p-6 rounded-2xl shadow-xl">
+                    <div class="w-12 h-12 rounded-xl bg-gold-500/10 flex items-center justify-center text-gold-400 text-xl mb-4">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-white">Career Guidance</h3>
+                    <p class="text-sm text-slate-400 mt-1">उचित करियर परामर्श और सही दिशा का मार्गदर्शन।</p>
+                </div>
+                <div class="bg-navy-800/80 border border-navy-700 p-6 rounded-2xl shadow-xl">
+                    <div class="w-12 h-12 rounded-xl bg-gold-500/10 flex items-center justify-center text-gold-400 text-xl mb-4">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-white">Technical Skills</h3>
+                    <p class="text-sm text-slate-400 mt-1">उद्योग की मांग के अनुसार कंप्यूटर व व्यावहारिक ट्रेनिंग।</p>
+                </div>
+                <div class="bg-navy-800/80 border border-navy-700 p-6 rounded-2xl shadow-xl">
+                    <div class="w-12 h-12 rounded-xl bg-gold-500/10 flex items-center justify-center text-gold-400 text-xl mb-4">
+                        <i class="fas fa-hand-holding-usd"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-white">Scholarship Support</h3>
+                    <p class="text-sm text-slate-400 mt-1">पात्र विद्यार्थियों के लिए सरकारी छात्रवृत्ति मार्गदर्शन।</p>
+                </div>
+                <div class="bg-navy-800/80 border border-navy-700 p-6 rounded-2xl shadow-xl">
+                    <div class="w-12 h-12 rounded-xl bg-gold-500/10 flex items-center justify-center text-gold-400 text-xl mb-4">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-white">Dual Campuses</h3>
+                    <p class="text-sm text-slate-400 mt-1">माधौगढ़ एवं उरई (जालौन बाईपास) में केंद्र।</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. ABOUT SECTION -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-3xl mx-auto text-center mb-16">
+                <span class="text-xs font-bold text-gold-600 uppercase tracking-widest">About Our Institution</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-navy-900 mt-2">सिग्मा इंस्टीट्यूट ऑफ एजुकेशन का परिचय</h2>
+                <div class="w-20 h-1 bg-gold-500 mx-auto mt-4 rounded-full"></div>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="p-8 rounded-2xl bg-slate-50 border border-slate-200">
+                    <div class="w-12 h-12 rounded-lg bg-navy-800 text-gold-400 flex items-center justify-center text-xl mb-5">
+                        <i class="fas fa-compass"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-navy-900 mb-3">Our Vision</h3>
+                    <p class="text-slate-600 leading-relaxed text-sm">
+                        क्षेत्र के प्रत्येक छात्र को गुणवत्तापूर्ण, सुलभ और रोजगारपरक शिक्षा उपलब्ध कराना ताकि वे बदलते तकनीकी युग में आत्मनिर्भर बन सकें।
+                    </p>
+                </div>
+                <div class="p-8 rounded-2xl bg-slate-50 border border-slate-200">
+                    <div class="w-12 h-12 rounded-lg bg-navy-800 text-gold-400 flex items-center justify-center text-xl mb-5">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-navy-900 mb-3">Our Mission</h3>
+                    <p class="text-slate-600 leading-relaxed text-sm">
+                        सैद्धांतिक ज्ञान के साथ व्यावहारिक कौशलों का विकास करना और छात्रों को शैक्षणिक व पेशेवर दुनिया की चुनौतियों के लिए तैयार करना।
+                    </p>
+                </div>
+                <div class="p-8 rounded-2xl bg-slate-50 border border-slate-200">
+                    <div class="w-12 h-12 rounded-lg bg-navy-800 text-gold-400 flex items-center justify-center text-xl mb-5">
+                        <i class="fas fa-book-reader"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-navy-900 mb-3">Student Guidance</h3>
+                    <p class="text-slate-600 leading-relaxed text-sm">
+                        व्यक्तिगत मेंटरशिप, डाउट सॉल्विंग सेशंस और निरंतर करियर काउंसलिंग जिससे हर छात्र अपनी रुचि के अनुसार सही क्षेत्र चुन सके।
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. COURSES SECTION -->
+    <section id="courses" class="py-20 bg-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-3xl mx-auto text-center mb-16">
+                <span class="text-xs font-bold text-gold-600 uppercase tracking-widest">Academic & Skill Programs</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-navy-900 mt-2">कोर्सेज श्रेणियां (Session 2026–27)</h2>
+                <div class="w-20 h-1 bg-gold-500 mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <div class="flex flex-wrap justify-center gap-2 mb-10">
+                <button onclick="filterCourses('degree', this)" class="course-tab-btn px-5 py-2 rounded-full text-sm font-semibold bg-navy-800 text-white shadow">🎓 Degree</button>
+                <button onclick="filterCourses('law', this)" class="course-tab-btn px-5 py-2 rounded-full text-sm font-semibold bg-white text-slate-700 hover:bg-slate-200">⚖️ Law</button>
+                <button onclick="filterCourses('polytechnic', this)" class="course-tab-btn px-5 py-2 rounded-full text-sm font-semibold bg-white text-slate-700 hover:bg-slate-200">🏗️ Diploma/Polytechnic</button>
+                <button onclick="filterCourses('computer', this)" class="course-tab-btn px-5 py-2 rounded-full text-sm font-semibold bg-white text-slate-700 hover:bg-slate-200">💻 Computer/Technical</button>
+                <button onclick="filterCourses('iti', this)" class="course-tab-btn px-5 py-2 rounded-full text-sm font-semibold bg-white text-slate-700 hover:bg-slate-200">🔧 ITI</button>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Degree -->
+                <div class="course-item degree bg-white rounded-2xl border border-slate-200 p-6 flex flex-col justify-between shadow-sm">
+                    <div>
+                        <div class="flex justify-between items-start mb-3">
+                            <span class="text-xs font-semibold px-2.5 py-1 bg-blue-100 text-blue-800 rounded">Degree Program</span>
+                            <span class="text-xs text-slate-500">3 Years</span>
+                        </div>
+                        <h4 class="text-xl font-bold text-navy-900">B.A. / B.Sc. / B.Com.</h4>
+                        <p class="text-xs text-slate-600 mt-2 font-medium">पात्रता: 10+2 (Inter) उत्तीर्ण</p>
+                        <p class="text-slate-500 text-sm mt-3">कला, विज्ञान व वाणिज्य संकायों में स्नातक की डिग्री के लिए व्यापक मार्गदर्शन।</p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-slate-100">
+                        <a href="#admission" class="block text-center py-2 rounded-lg bg-navy-800 text-gold-400 font-semibold text-sm hover:bg-navy-900">Enquire Now</a>
+                    </div>
+                </div>
+
+                <div class="course-item degree bg-white rounded-2xl border border-slate-200 p-6 flex flex-col justify-between shadow-sm">
+                    <div>
+                        <div class="flex justify-between items-start mb-3">
+                            <span class="text-xs font-semibold px-2.5 py-1 bg-blue-100 text-blue-800 rounded">Professional Degree</span>
+                            <span class="text-xs text-slate-500">3 Years</span>
+                        </div>
+                        <h4 class="text-xl font-bold text-navy-900">B.B.A. / B.C.A.</h4>
+                        <p class="text-xs text-slate-600 mt-2 font-medium">पात्रता: 10+2 (गणित/कॉमर्स)</p>
+                        <p class="text-slate-500 text-sm mt-3">बिजनेस एडमिनिस्ट्रेशन और कंप्यूटर एप्लीकेशन्स में तकनीकी व प्रबंधकीय कौशल।</p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-slate-100">
+                        <a href="#admission" class="block text-center py-2 rounded-lg bg-navy-800 text-gold-400 font-semibold text-sm hover:bg-navy-900">Enquire Now</a>
+                    </div>
+                </div>
+
+                <!-- Law -->
+                <div class="course-item law hidden bg-white rounded-2xl border border-slate-200 p-6 flex flex-col justify-between shadow-sm">
+                    <div>
+                        <div class="flex justify-between items-start mb-3">
+                            <span class="text-xs font-semibold px-2.5 py-1 bg-purple-100 text-purple-800 rounded">Legal Studies</span>
+                            <span class="text-xs text-slate-500">3 / 5 Years</span>
+                        </div>
+                        <h4 class="text-xl font-bold text-navy-900">LL.B. / B.A. LL.B.</h4>
+                        <p class="text-xs text-slate-600 mt-2 font-medium">पात्रता: स्नातक / 10+2</p>
+                        <p class="text-slate-500 text-sm mt-3">विधिक अध्ययन, न्यायशास्त्र और कानूनी परामर्श के लिए मार्गदर्शन। *संबद्धता नियमों के अधीन।</p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-slate-100">
+                        <a href="#admission" class="block text-center py-2 rounded-lg bg-navy-800 text-gold-400 font-semibold text-sm hover:bg-navy-900">Enquire Now</a>
+                    </div>
+                </div>
+
+                <!-- Polytechnic -->
+                <div class="course-item polytechnic hidden bg-white rounded-2xl border border-slate-200 p-6 flex flex-col justify-between shadow-sm">
+                    <div>
+                        <div class="flex justify-between items-start mb-3">
+                            <span class="text-xs font-semibold px-2.5 py-1 bg-amber-100 text-amber-800 rounded">Diploma Engg.</span>
+                            <span class="text-xs text-slate-500">3 Years</span>
+                        </div>
+                        <h4 class="text-xl font-bold text-navy-900">Polytechnic Diploma</h4>
+                        <p class="text-xs text-slate-600 mt-2 font-medium">ब्रांचेज: Civil, Mech, Elec, CS, Auto</p>
+                        <p class="text-slate-500 text-sm mt-3">इंजीनियरिंग और उद्योग-केंद्रित तकनीकी डिप्लोमा कोर्सेज की तैयारी।</p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-slate-100">
+                        <a href="#admission" class="block text-center py-2 rounded-lg bg-navy-800 text-gold-400 font-semibold text-sm hover:bg-navy-900">Enquire Now</a>
+                    </div>
+                </div>
+
+                <!-- Computer -->
+                <div class="course-item computer hidden bg-white rounded-2xl border border-slate-200 p-6 flex flex-col justify-between shadow-sm">
+                    <div>
+                        <div class="flex justify-between items-start mb-3">
+                            <span class="text-xs font-semibold px-2.5 py-1 bg-emerald-100 text-emerald-800 rounded">Computer Skills</span>
+                            <span class="text-xs text-slate-500">3 माह – 1 वर्ष</span>
+                        </div>
+                        <h4 class="text-xl font-bold text-navy-900">ADCA, DCA & CCC</h4>
+                        <p class="text-xs text-slate-600 mt-2 font-medium">पात्रता: 10th / 12th पास</p>
+                        <p class="text-slate-500 text-sm mt-3">कंप्यूटर फंडामेंटल्स, एमएस ऑफिस और सरकारी व निजी नौकरियों हेतु ट्रेनिंग।</p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-slate-100">
+                        <a href="#admission" class="block text-center py-2 rounded-lg bg-navy-800 text-gold-400 font-semibold text-sm hover:bg-navy-900">Enquire Now</a>
+                    </div>
+                </div>
+
+                <!-- ITI -->
+                <div class="course-item iti hidden bg-white rounded-2xl border border-slate-200 p-6 flex flex-col justify-between shadow-sm">
+                    <div>
+                        <div class="flex justify-between items-start mb-3">
+                            <span class="text-xs font-semibold px-2.5 py-1 bg-orange-100 text-orange-800 rounded">Vocational Trades</span>
+                            <span class="text-xs text-slate-500">1 – 2 Years</span>
+                        </div>
+                        <h4 class="text-xl font-bold text-navy-900">Electrician / Fitter / COPA</h4>
+                        <p class="text-xs text-slate-600 mt-2 font-medium">पात्रता: 10th पास (गणित व विज्ञान)</p>
+                        <p class="text-slate-500 text-sm mt-3">औद्योगिक इकाइयों और रेलवे/पीएसयू में तकनीकी पदों हेतु ट्रेड मार्गदर्शन।</p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-slate-100">
+                        <a href="#admission" class="block text-center py-2 rounded-lg bg-navy-800 text-gold-400 font-semibold text-sm hover:bg-navy-900">Enquire Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. SCHOLARSHIP SECTION -->
+    <section id="scholarship" class="py-20 bg-navy-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <span class="text-xs font-bold text-gold-400 uppercase tracking-widest">Financial Assistance</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold mt-2">छात्रवृत्ति मार्गदर्शन (Scholarship Desk)</h2>
+                <p class="text-slate-300 mt-4 leading-relaxed text-sm">
+                    योग्य एवं आर्थिक रूप से कमजोर वर्ग के छात्र-छात्राओं के लिए राज्य सरकार (UP Scholarship) व केंद्र सरकार की योजनाओं के अनुसार फॉर्म भरने एवं मार्गदर्शन की पूरी सुविधा।
+                </p>
+                <div class="mt-6 space-y-3 text-sm text-slate-200">
+                    <p><i class="fas fa-check-circle text-gold-400 mr-2"></i> आय, जाति, निवास प्रमाण पत्र एवं आधार कार्ड अनिवार्य।</p>
+                    <p><i class="fas fa-check-circle text-gold-400 mr-2"></i> बैंक खाता आधार और NPCI से लिंक होना चाहिए।</p>
+                    <p><i class="fas fa-check-circle text-gold-400 mr-2"></i> ऑनलाइन आवेदन में संस्थान स्तर पर निःशुल्क मार्गदर्शन।</p>
+                </div>
+                <div class="mt-8">
+                    <a href="#admission" class="px-6 py-3 rounded-lg bg-gold-500 text-navy-900 font-bold hover:bg-gold-400 transition inline-block">Check Scholarship Eligibility</a>
+                </div>
+            </div>
+            <div class="bg-navy-800 border border-navy-700 p-8 rounded-2xl shadow-xl">
+                <h3 class="text-xl font-bold text-gold-400 mb-4">Required Documents Checklist</h3>
+                <ul class="divide-y divide-navy-700 text-sm text-slate-300">
+                    <li class="py-2.5 flex justify-between"><span>Aadhaar Card (Mobile Linked)</span> <span class="text-xs text-gold-400">अनिवार्य</span></li>
+                    <li class="py-2.5 flex justify-between"><span>Income Certificate (आय प्रमाण पत्र)</span> <span class="text-xs text-gold-400">सत्यापित</span></li>
+                    <li class="py-2.5 flex justify-between"><span>Caste Certificate (जाति प्रमाण पत्र)</span> <span class="text-xs text-gold-400">यदि लागू हो</span></li>
+                    <li class="py-2.5 flex justify-between"><span>Domicile Certificate (निवास प्रमाण पत्र)</span> <span class="text-xs text-gold-400">अनिवार्य</span></li>
+                    <li class="py-2.5 flex justify-between"><span>Bank Passbook (NPCI Active)</span> <span class="text-xs text-gold-400">अनिवार्य</span></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. ADMISSION FORM -->
+    <section id="admission" class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <span class="text-xs font-bold text-gold-600 uppercase tracking-widest">Apply Online</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-navy-900 mt-1">Admission Enquiry 2026–27</h2>
+                <div class="w-16 h-1 bg-gold-500 mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <form id="admissionForm" class="bg-slate-50 border border-slate-200 rounded-3xl p-6 sm:p-10 shadow-lg space-y-6">
+                <div class="grid sm:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-xs font-bold uppercase text-navy-900 mb-1">Student Full Name *</label>
+                        <input type="text" name="Student_Name" required placeholder="पूरा नाम दर्ज करें" class="w-full px-4 py-3 rounded-lg border border-slate-300 bg-white text-sm focus:outline-none focus:border-navy-700">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold uppercase text-navy-900 mb-1">Father's / Mother's Name *</label>
+                        <input type="text" name="Parent_Name" required placeholder="अभिभावक का नाम" class="w-full px-4 py-3 rounded-lg border border-slate-300 bg-white text-sm focus:outline-none focus:border-navy-700">
+                    </div>
+                </div>
+
+                <div class="grid sm:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-xs font-bold uppercase text-navy-900 mb-1">Mobile Number *</label>
+                        <input type="tel" name="Mobile" required pattern="[0-9]{10}" placeholder="10 अंकों का मोबाइल नंबर" class="w-full px-4 py-3 rounded-lg border border-slate-300 bg-white text-sm focus:outline-none focus:border-navy-700">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold uppercase text-navy-900 mb-1">Email Address</label>
+                        <input type="email" name="Email" placeholder="student@example.com" class="w-full px-4 py-3 rounded-lg border border-slate-300 bg-white text-sm focus:outline-none focus:border-navy-700">
+                    </div>
+                </div>
+
+                <div class="grid sm:grid-cols-3 gap-6">
+                    <div>
+                        <label class="block text-xs font-bold uppercase text-navy-900 mb-1">Date of Birth *</label>
+                        <input type="date" name="DOB" required class="w-full px-4 py-3 rounded-lg border border-slate-300 bg-white text-sm focus:outline-none focus:border-navy-700">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold uppercase text-navy-900 mb-1">Course Desired *</label>
+                        <select name="Course" required class="w-full px-4 py-3 rounded-lg border border-slate-300 bg-white text-sm focus:outline-none focus:border-navy-700">
+                            <option value="">-- कोर्स चुनें --</option>
+                            <option value="BA">B.A.</option>
+                            <option value="BSc">B.Sc.</option>
+                            <option value="BCom">B.Com.</option>
+                            <option value="BBA">B.B.A.</option>
+                            <option value="BCA">B.C.A.</option>
+                            <option value="LLB">LL.B. / B.A. LL.B.</option>
+                            <option value="Polytechnic">Polytechnic Diploma</option>
+                            <option value="ADCA_DCA">ADCA / DCA / CCC</option>
+                            <option value="Tally_GST">Tally + GST</option>
+                            <option value="ITI">ITI (Electrician/Fitter/COPA)</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold uppercase text-navy-900 mb-1">Qualification *</label>
+                        <select name="Qualification" required class="w-full px-4 py-3 rounded-lg border border-slate-300 bg-white text-sm focus:outline-none focus:border-navy-700">
+                            <option value="">-- पिछली कक्षा --</option>
+                            <option value="10th">10th Pass</option>
+                            <option value="12th">12th Pass / Appearing</option>
+                            <option value="Graduate">Graduation</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div>
+                    <label class="block text-xs font-bold uppercase text-navy-900 mb-1">Full Address *</label>
+                    <textarea name="Address" rows="2" required placeholder="गाँव / शहर, पोस्ट, पिन कोड" class="w-full px-4 py-3 rounded-lg border border-slate-300 bg-white text-sm focus:outline-none focus:border-navy-700"></textarea>
+                </div>
+
+                <div>
+                    <label class="block text-xs font-bold uppercase text-navy-900 mb-1">Query / Message</label>
+                    <textarea name="Message" rows="2" placeholder="यदि कोई विशेष प्रश्न हो तो लिखें..." class="w-full px-4 py-3 rounded-lg border border-slate-300 bg-white text-sm focus:outline-none focus:border-navy-700"></textarea>
+                </div>
+
+                <button type="submit" id="submitBtn" class="w-full py-4 rounded-xl bg-gradient-to-r from-navy-800 to-navy-900 text-gold-400 font-bold hover:brightness-110 shadow-md transition text-base tracking-wide flex items-center justify-center gap-2">
+                    <span>Submit Admission Enquiry</span>
+                </button>
+                <div id="formStatus" class="hidden text-center text-sm font-semibold p-3 rounded-lg"></div>
+            </form>
+        </div>
+    </section>
+
+    <!-- 6. GALLERY -->
+    <section id="gallery" class="py-20 bg-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <span class="text-xs font-bold text-gold-600 uppercase tracking-widest">Campus & Life</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-navy-900 mt-1">परिसर और सुविधाएं (Gallery)</h2>
+                <div class="w-16 h-1 bg-gold-500 mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+                <div class="h-48 bg-navy-800/10 rounded-2xl border border-slate-200 flex flex-col items-center justify-center text-slate-500 p-4 text-center">
+                    <i class="fas fa-chalkboard-teacher text-3xl mb-2 text-navy-700"></i>
+                    <span class="text-sm font-semibold text-navy-900">Modern Classroom</span>
+                </div>
+                <div class="h-48 bg-navy-800/10 rounded-2xl border border-slate-200 flex flex-col items-center justify-center text-slate-500 p-4 text-center">
+                    <i class="fas fa-desktop text-3xl mb-2 text-navy-700"></i>
+                    <span class="text-sm font-semibold text-navy-900">Computer Lab</span>
+                </div>
+                <div class="h-48 bg-navy-800/10 rounded-2xl border border-slate-200 flex flex-col items-center justify-center text-slate-500 p-4 text-center">
+                    <i class="fas fa-book-open text-3xl mb-2 text-navy-700"></i>
+                    <span class="text-sm font-semibold text-navy-900">Library & Reading Room</span>
+                </div>
+                <div class="h-48 bg-navy-800/10 rounded-2xl border border-slate-200 flex flex-col items-center justify-center text-slate-500 p-4 text-center">
+                    <i class="fas fa-users text-3xl mb-2 text-navy-700"></i>
+                    <span class="text-sm font-semibold text-navy-900">Seminars & Workshops</span>
+                </div>
+                <div class="h-48 bg-navy-800/10 rounded-2xl border border-slate-200 flex flex-col items-center justify-center text-slate-500 p-4 text-center">
+                    <i class="fas fa-building text-3xl mb-2 text-navy-700"></i>
+                    <span class="text-sm font-semibold text-navy-900">Campus Infrastructure</span>
+                </div>
+                <div class="h-48 bg-navy-800/10 rounded-2xl border border-slate-200 flex flex-col items-center justify-center text-slate-500 p-4 text-center">
+                    <i class="fas fa-calendar-alt text-3xl mb-2 text-navy-700"></i>
+                    <span class="text-sm font-semibold text-navy-900">Activities & Events</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. CONTACT & LOCATION -->
+    <section id="contact" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <span class="text-xs font-bold text-gold-600 uppercase tracking-widest">Get In Touch</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-navy-900 mt-1">संपर्क एवं परिसर के पते</h2>
+                <div class="w-16 h-1 bg-gold-500 mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <div class="grid lg:grid-cols-3 gap-8">
+                <div class="bg-slate-50 border border-slate-200 p-8 rounded-2xl flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-lg bg-navy-800 text-gold-400 flex items-center justify-center text-xl mb-4">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-navy-900">माधौगढ़ परिसर (Address 1)</h3>
+                        <p class="text-slate-600 text-sm mt-3">Madhogarh, District Jalaun, Uttar Pradesh</p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-slate-200">
+                        <a href="https://maps.google.com/?q=Madhogarh+Jalaun" target="_blank" class="text-sm font-semibold text-navy-800 hover:text-gold-600">Open on Google Maps →</a>
+                    </div>
+                </div>
+
+                <div class="bg-slate-50 border border-slate-200 p-8 rounded-2xl flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-lg bg-navy-800 text-gold-400 flex items-center justify-center text-xl mb-4">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-navy-900">उरई परिसर (Address 2)</h3>
+                        <p class="text-slate-600 text-sm mt-3">New Patel Nagar, Nearby Jalaun Bypass, Orai, Jalaun, UP</p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-slate-200">
+                        <a href="https://maps.google.com/?q=New+Patel+Nagar+Jalaun+Bypass+Orai" target="_blank" class="text-sm font-semibold text-navy-800 hover:text-gold-600">Open on Google Maps →</a>
+                    </div>
+                </div>
+
+                <div class="bg-navy-900 text-white p-8 rounded-2xl flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-xl font-bold text-gold-400 mb-2">Instant Helpline</h3>
+                        <div class="mt-4 space-y-3 text-sm">
+                            <p><i class="fas fa-phone text-gold-400 mr-2"></i> +91 9651248042 / 9369349278</p>
+                            <p class="text-xs break-all"><i class="fas fa-envelope text-gold-400 mr-2"></i> Sigmainstituteofeducation@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="mt-6 flex gap-3">
+                        <a href="tel:9651248042" class="flex-1 text-center py-2.5 rounded-lg bg-gold-500 text-navy-900 font-bold text-sm">Call</a>
+                        <a href="https://wa.me/919651248042" target="_blank" class="flex-1 text-center py-2.5 rounded-lg bg-emerald-600 text-white font-bold text-sm">WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER WITH ADMIN PORTAL LINK -->
+    <footer class="bg-navy-900 border-t border-navy-800 text-slate-400 text-xs py-8">
+        <div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row justify-between items-center gap-4">
+            <p>© 2026 Sigma Institute of Education. All rights reserved.</p>
+            <div class="flex items-center gap-4 text-slate-500">
+                <span>Madhogarh & Orai (U.P.)</span>
+                <!-- Clicking this opens Admin Login Modal -->
+                <button onclick="openAdminModal()" class="text-slate-600 hover:text-gold-400 text-[11px] underline">
+                    🔒 Portal Access
+                </button>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ========================================== -->
+    <!-- ADMIN MODAL & DASHBOARD (IN THE SAME FILE) -->
+    <!-- ========================================== -->
+    <div id="adminModal" class="hidden fixed inset-0 z-50 bg-black/80 backdrop-blur-sm flex items-center justify-center p-4">
+        
+        <!-- ADMIN LOGIN BOX -->
+        <div id="adminLoginBox" class="max-w-md w-full bg-navy-800 border border-navy-700 rounded-3xl p-8 shadow-2xl relative">
+            <button onclick="closeAdminModal()" class="absolute top-4 right-4 text-slate-400 hover:text-white text-xl">✕</button>
+            
+            <div class="text-center mb-6">
+                <div class="w-14 h-14 rounded-2xl bg-navy-900 border border-gold-500 mx-auto flex items-center justify-center text-gold-400 text-2xl font-bold mb-2">Σ</div>
+                <h3 class="text-xl font-bold text-white">Management Login</h3>
+                <p class="text-xs text-gold-400">Sigma Institute Admin Portal</p>
+            </div>
+
+            <form id="adminLoginForm" class="space-y-4">
+                <div>
+                    <label class="block text-xs font-bold text-slate-300 uppercase mb-1">Username</label>
+                    <input type="text" id="adminUser" required placeholder="admin" class="w-full px-4 py-2.5 rounded-xl bg-navy-900 border border-navy-700 text-white text-sm focus:outline-none focus:border-gold-500">
+                </div>
+                <div>
+                    <label class="block text-xs font-bold text-slate-300 uppercase mb-1">Password</label>
+                    <input type="password" id="adminPass" required placeholder="••••••••" class="w-full px-4 py-2.5 rounded-xl bg-navy-900 border border-navy-700 text-white text-sm focus:outline-none focus:border-gold-500">
+                </div>
+                <div id="loginError" class="hidden text-xs text-red-400 bg-red-900/30 p-2 rounded text-center">गलत यूजरनेम या पासवर्ड!</div>
+                <button type="submit" class="w-full py-3 rounded-xl bg-gold-500 text-navy-900 font-bold hover:brightness-105 text-sm">लॉगिन करें</button>
+            </form>
+        </div>
+
+        <!-- ADMIN DASHBOARD FULL VIEW (AFTER LOGIN) -->
+        <div id="adminDashboardBox" class="hidden w-full max-w-6xl max-h-[90vh] bg-white rounded-3xl shadow-2xl flex flex-col overflow-hidden relative">
+            <!-- Header -->
+            <div class="bg-navy-800 text-white p-4 sm:p-6 flex justify-between items-center border-b border-navy-700">
+                <div>
+                    <h2 class="text-lg font-bold text-gold-400">Sigma Admission Dashboard</h2>
+                    <p class="text-xs text-slate-300">Live Google Sheets Records</p>
+                </div>
+                <div class="flex items-center gap-3">
+                    <button onclick="fetchSheetRecords()" class="px-3 py-1.5 bg-navy-700 text-xs rounded-lg hover:bg-navy-600"><i class="fas fa-sync-alt" id="refreshIcon"></i> Refresh</button>
+                    <button onclick="adminLogout()" class="px-3 py-1.5 bg-red-600 text-xs text-white rounded-lg hover:bg-red-700">Logout</button>
+                    <button onclick="closeAdminModal()" class="text-slate-400 hover:text-white text-xl ml-2">✕</button>
+                </div>
+            </div>
+
+            <!-- Stats Bar -->
+            <div class="grid grid-cols-3 gap-4 p-4 bg-slate-100 border-b border-slate-200 text-center">
+                <div class="bg-white p-3 rounded-xl shadow-sm"><span class="text-xs text-slate-500">कुल आवेदन</span><h4 id="statTotal" class="text-xl font-bold text-navy-900">0</h4></div>
+                <div class="bg-white p-3 rounded-xl shadow-sm"><span class="text-xs text-slate-500">डिग्री / लॉ</span><h4 id="statDegree" class="text-xl font-bold text-navy-900">0</h4></div>
+                <div class="bg-white p-3 rounded-xl shadow-sm"><span class="text-xs text-slate-500">तकनीकी / ITI</span><h4 id="statTech" class="text-xl font-bold text-navy-900">0</h4></div>
+            </div>
+
+            <!-- Search Filter -->
+            <div class="p-4 border-b border-slate-200">
+                <input type="text" id="adminSearch" onkeyup="filterRecords()" placeholder="नाम, मोबाइल या कोर्स खोजें..." class="w-full px-4 py-2 border rounded-xl text-xs focus:outline-none focus:border-navy-700">
+            </div>
+
+            <!-- Table -->
+            <div class="flex-1 overflow-auto p-4">
+                <table class="w-full text-left text-xs">
+                    <thead>
+                        <tr class="bg-navy-900 text-gold-400">
+                            <th class="p-3">तारीख</th>
+                            <th class="p-3">छात्र</th>
+                            <th class="p-3">अभिभावक</th>
+                            <th class="p-3">कोर्स</th>
+                            <th class="p-3">मोबाइल</th>
+                            <th class="p-3">पता व संदेश</th>
+                            <th class="p-3 text-center">संपर्क</th>
+                        </tr>
+                    </thead>
+                    <tbody id="adminTableBody" class="divide-y divide-slate-100">
+                        <tr><td colspan="7" class="text-center py-8 text-slate-400">डेटा लोड हो रहा है...</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- JAVASCRIPT LOGIC -->
+    <script>
+        // SHEETDB API URL
+        const SHEETDB_API_URL = "https://sheetdb.io/api/v1/ypaceyx0mvp47";
+        const ADMIN_USER = "admin";
+        const ADMIN_PASS = "sigma2026";
+
+        // Mobile Nav
+        document.getElementById('mobileMenuBtn').addEventListener('click', () => {
+            document.getElementById('mobileMenu').classList.toggle('hidden');
+        });
+
+        // Course Tabs
+        function filterCourses(category, btn) {
+            document.querySelectorAll('.course-tab-btn').forEach(b => {
+                b.classList.remove('bg-navy-800', 'text-white', 'shadow');
+                b.classList.add('bg-white', 'text-slate-700');
+            });
+            btn.classList.add('bg-navy-800', 'text-white', 'shadow');
+            btn.classList.remove('bg-white', 'text-slate-700');
+
+            document.querySelectorAll('.course-item').forEach(card => {
+                card.classList.toggle('hidden', !card.classList.contains(category));
+            });
+        }
+
+        // Student Form Submit
+        const admissionForm = document.getElementById('admissionForm');
+        admissionForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const submitBtn = document.getElementById('submitBtn');
+            const formStatus = document.getElementById('formStatus');
+            submitBtn.disabled = true;
+            submitBtn.innerHTML = 'सबमिट हो रहा है...';
+
+            const formData = new FormData(admissionForm);
+            const dataObj = Object.fromEntries(formData.entries());
+            dataObj['Submission_Date'] = new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' });
+
+            try {
+                const res = await fetch(SHEETDB_API_URL, {
+                    method: 'POST',
+                    headers: { 'Accept': 'application/json', 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ data: [dataObj] })
+                });
+                if (res.ok) {
+                    formStatus.className = "text-center text-sm font-semibold p-3 rounded-lg bg-emerald-100 text-emerald-800 block";
+                    formStatus.innerText = "✓ आपका एडमिशन फॉर्म सफलतापूर्वक दर्ज हो गया है!";
+                    admissionForm.reset();
+                } else throw new Error();
+            } catch {
+                formStatus.className = "text-center text-sm font-semibold p-3 rounded-lg bg-red-100 text-red-800 block";
+                formStatus.innerText = "⚠️ फॉर्म दर्ज नहीं हो सका। कृपया सीधे कॉल करें: 9651248042";
+            } finally {
+                submitBtn.disabled = false;
+                submitBtn.innerHTML = 'Submit Admission Enquiry';
+            }
+        });
+
+        // ADMIN MODAL & DASHBOARD LOGIC
+        let sheetData = [];
+
+        function openAdminModal() {
+            document.getElementById('adminModal').classList.remove('hidden');
+            if (sessionStorage.getItem('sigma_auth') === 'true') {
+                showDashboardView();
+            } else {
+                showLoginView();
+            }
+        }
+
+        function closeAdminModal() {
+            document.getElementById('adminModal').classList.add('hidden');
+        }
+
+        function showLoginView() {
+            document.getElementById('adminLoginBox').classList.remove('hidden');
+            document.getElementById('adminDashboardBox').classList.add('hidden');
+        }
+
+        function showDashboardView() {
+            document.getElementById('adminLoginBox').classList.add('hidden');
+            document.getElementById('adminDashboardBox').classList.remove('hidden');
+            fetchSheetRecords();
+        }
+
+        document.getElementById('adminLoginForm').addEventListener('submit', (e) => {
+            e.preventDefault();
+            const u = document.getElementById('adminUser').value.trim();
+            const p = document.getElementById('adminPass').value.trim();
+            if (u === ADMIN_USER && p === ADMIN_PASS) {
+                sessionStorage.setItem('sigma_auth', 'true');
+                document.getElementById('loginError').classList.add('hidden');
+                showDashboardView();
+            } else {
+                document.getElementById('loginError').classList.remove('hidden');
+            }
+        });
+
+        function adminLogout() {
+            sessionStorage.removeItem('sigma_auth');
+            showLoginView();
+        }
+
+        async function fetchSheetRecords() {
+            const tableBody = document.getElementById('adminTableBody');
+            const icon = document.getElementById('refreshIcon');
+            icon.classList.add('fa-spin');
+            try {
+                const res = await fetch(SHEETDB_API_URL);
+                sheetData = await res.json();
+                sheetData.reverse();
+                renderAdminTable(sheetData);
+                
+                // Stats
+                document.getElementById('statTotal').innerText = sheetData.length;
+                document.getElementById('statDegree').innerText = sheetData.filter(d => ['BA', 'BSc', 'BCom', 'BBA', 'BCA', 'LLB'].includes(d.Course)).length;
+                document.getElementById('statTech').innerText = sheetData.filter(d => ['Polytechnic', 'ADCA_DCA', 'Tally_GST', 'ITI'].includes(d.Course)).length;
+            } catch {
+                tableBody.innerHTML = '<tr><td colspan="7" class="text-center py-4 text-red-500">डेटा लोड नहीं हो पाया।</td></tr>';
+            } finally {
+                icon.classList.remove('fa-spin');
+            }
+        }
+
+        function renderAdminTable(data) {
+            const tableBody = document.getElementById('adminTableBody');
+            if (!data || data.length === 0) {
+                tableBody.innerHTML = '<tr><td colspan="7" class="text-center py-6 text-slate-400">कोई डेटा नहीं मिला।</td></tr>';
+                return;
+            }
+            tableBody.innerHTML = data.map(i => `
+                <tr class="hover:bg-slate-50 border-b">
+                    <td class="p-3 text-[11px] text-slate-500 whitespace-nowrap">${i.Submission_Date || ''}</td>
+                    <td class="p-3 font-bold text-navy-900">${i.Student_Name || ''}</td>
+                    <td class="p-3 text-slate-600">${i.Parent_Name || ''}</td>
+                    <td class="p-3"><span class="px-2 py-0.5 rounded bg-blue-100 text-blue-800 font-semibold">${i.Course || ''}</span></td>
+                    <td class="p-3 font-mono">${i.Mobile || ''}</td>
+                    <td class="p-3 max-w-xs truncate">${i.Address || ''} | ${i.Message || ''}</td>
+                    <td class="p-3 text-center whitespace-nowrap">
+                        <a href="tel:${i.Mobile}" class="p-1.5 rounded bg-navy-800 text-gold-400 mr-1"><i class="fas fa-phone-alt"></i></a>
+                        <a href="https://wa.me/91${i.Mobile}" target="_blank" class="p-1.5 rounded bg-emerald-600 text-white"><i class="fab fa-whatsapp"></i></a>
+                    </td>
+                </tr>
+            `).join('');
+        }
+
+        function filterRecords() {
+            const q = document.getElementById('adminSearch').value.toLowerCase();
+            const f = sheetData.filter(i => 
+                (i.Student_Name || '').toLowerCase().includes(q) ||
+                (i.Mobile || '').toLowerCase().includes(q) ||
+                (i.Course || '').toLowerCase().includes(q)
+            );
+            renderAdminTable(f);
+        }
+    </script>
+</body>
+</html>
